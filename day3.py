@@ -21,6 +21,9 @@ sc = SlackClient(slack_token)
 def sub(a,b):
     return a-b
 
+def mul(a,b):
+    return a*b
+
 # 크롤링 함수 구현하기
 def _crawl_naver_keywords(text):
     if text == 'Default Fallback Intent':
